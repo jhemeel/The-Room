@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+:root{
+    --primary-color:  #277aa6;
+    --secondary-color: #dedede;
+}
+
+.night{
+    --secondary-color: #262626;
+}
+body{
+    background-color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    border-bottom: 2px solid  var(--primary-color);
+
+}
+.icon-bar{
+    background-color: var(--primary-color);
+}
+.navbar a{
+    color: var(--primary-color);
+}
+.navbar input[type="search"]{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
